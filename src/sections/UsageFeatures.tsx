@@ -157,7 +157,7 @@ const UsageFeatures = () => {
             <h1  style={{
                 clipPath:'polygon(50% 0, 50% 0, 50% 100%, 50% 100%)'
                 }}  
-            className='mt-4 text-center font-semibold text-3xl md:text-3xl text-white lg:text-4xl fourth-title'>Corner smoothing you can't unsee</h1>
+            className='mt-4 text-center font-semibold text-3xl md:text-3xl text-white lg:text-4xl fourth-title'>Corner smoothing you can&apos;t unsee</h1>
             <p className='fourth-paragraph mt-4 text-gray-400 max-md:text-sm text-center max-w-[500px] mx-auto'>Apple-like continuously variable curvature by default on every corner. Extra
             polishing detail that are not available in most packs made with Adobe.</p>
 

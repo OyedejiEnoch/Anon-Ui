@@ -181,7 +181,7 @@ const Categories = () => {
                 </motion.div>
                 <div className='flex items-center gap-6'>
                     {middle.map((menu)=>(
-                        <div className='border border-gray-300 bg-white shadow px-4 py-2 flex items-center gap-4 rounded-lg'>
+                        <div key={menu.title} className='border border-gray-300 bg-white shadow px-4 py-2 flex items-center gap-4 rounded-lg'>
                                 <div className='size-10 rounded-full border border-gray-300 flex items-center justify-center'>
                                     <menu.icon className='text-[#1F78FF]' size={20}/>
                                 </div>
@@ -195,7 +195,7 @@ const Categories = () => {
                 </div>
                 <div className='flex items-center gap-6'>
                     {bottom.map((menu)=>(
-                        <div className='border border-gray-300 bg-white shadow px-4 py-2 flex items-center gap-4 rounded-lg'>
+                        <div key={menu.title} className='border border-gray-300 bg-white shadow px-4 py-2 flex items-center gap-4 rounded-lg'>
                                 <div className='size-10 rounded-full border border-gray-300 flex items-center justify-center'>
                                     <menu.icon className='text-[#1F78FF]' size={20}/>
                                 </div>

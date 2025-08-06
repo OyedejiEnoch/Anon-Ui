@@ -53,7 +53,7 @@ const Testimonials = () => {
                     <div className=' px-6 py-10'>
                     <h2 className='text-3xl font-bold text-black text-center max-w-[800px]'>My go-to icon pack for every project that I start
                         working on. The flexibility and customization it gives
-                        me hasn't been matched by anyone so far.</h2>
+                        me hasn&apos;t been matched by anyone so far.</h2>
                     
 
                     <div className='flex justify-center items-center flex-col mt-10'>

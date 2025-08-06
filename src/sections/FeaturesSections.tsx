@@ -50,7 +50,7 @@ const FeaturesSections = () => {
                 </div>
 
                     <h1 className='second-title mt-4 font-semibold text-3xl max-w-[400px] md:max-w-[500px] md:text-3xl lg:text-4xl text-black'>Clean search results</h1>
-                    <p className='second-paragraph mt-4 text-gray-400 max-md:text-sm max-w-[350px] md:max-w-[400px] '>Your search won't be overloaded with icons
+                    <p className='second-paragraph mt-4 text-gray-400 max-md:text-sm max-w-[350px] md:max-w-[400px] '>Your search won&apos;t be overloaded with icons
                         in all 6 styles. And smart tags will make it even more accurate.</p>
                 
                 <div className='second-button'>

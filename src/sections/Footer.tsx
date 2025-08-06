@@ -35,7 +35,7 @@ const Footer = () => {
             <h1 style={{
           clipPath:'polygon(50% 0, 50% 0, 50% 100%, 50% 100%)'
         }} className='footer-title mt-6 text-center font-semibold text-3xl md:text-3xl lg:text-4xl'>Stay tuned for updates</h1>
-            <p className='footer-paragraph mt-6 max-md:text-sm text-gray-400 text-center max-w-[600px] mx-auto'>We share thoughts on design, tools, and productivity. If you don't want to
+            <p className='footer-paragraph mt-6 max-md:text-sm text-gray-400 text-center max-w-[600px] mx-auto'>We share thoughts on design, tools, and productivity. If you don&apos;t want to
             miss them, subscribe to our newsletter on Substack.</p>
 
             <div className='flex justify-between items-center mt-10'>

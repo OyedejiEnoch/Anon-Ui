@@ -102,7 +102,7 @@ const Pricing = () => {
             <h1  style={{
           clipPath:'polygon(50% 0, 50% 0, 50% 100%, 50% 100%)'
         }} className='price-title mt-4 text-center font-semibold text-3xl md:text-3xl lg:text-4xl text-black'>Pay once, use forever, upgrade for free</h1>
-            <p className='price-paragraph mt-4 max-md:text-sm text-gray-400 text-center max-w-[500px] mx-auto'>Flexible pricing for any team size. It's a one-time payment — you only buy a
+            <p className='price-paragraph mt-4 max-md:text-sm text-gray-400 text-center max-w-[500px] mx-auto'>Flexible pricing for any team size. It&apos;s a one-time payment — you only buy a
             license once, and all future updates are free for you forever.</p>
 
 
