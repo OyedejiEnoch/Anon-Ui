@@ -37,7 +37,7 @@ const UsageFeatures = () => {
         firstTl.from(firstTitleSplit.words, {yPercent:100, opacity:0, ease:'power2.inOut', duration:0.5, stagger:0.04})
         firstTl.from(firstParaSplit.words, {yPercent:100, opacity:0, ease:'power2.inOut', duration:0.5, stagger:0.04}, '-=0.5')
         firstTl.from('.first-button', {opacity:0, duration:0.6, ease:'power2.out'}, '-=0.5')
-        firstTl.from('.first-image', {opacity:0, duration:0.6, ease:'power1.out',},'-=0.3')
+        // firstTl.from('.first-image', {opacity:0, duration:0.6, ease:'power1.out',},'-=0.3')
 
 
         const secondTl =gsap.timeline({

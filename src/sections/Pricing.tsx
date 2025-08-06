@@ -87,7 +87,7 @@ const Pricing = () => {
         duration: 0.6,
         stagger: 0.3,
         ease: "back.out",
-      },);
+      },'-=0.3');
 
     },[])
 

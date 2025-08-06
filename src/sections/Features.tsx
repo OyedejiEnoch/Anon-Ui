@@ -82,7 +82,7 @@ const Features = () => {
   
     featureTl.to('.features-section h1', {
       opacity:1,
-      duration:1,
+      duration:0.8,
       clipPath:'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)',
       ease:'circ.out'
     })
@@ -93,10 +93,10 @@ const Features = () => {
         delay:0.2,
         opacity: 0,
         duration: 0.6,
-        stagger: 0.3,
+        stagger: 0.1,
         ease: "back.out",
         
-      },);
+      }, '-=0.2');
     
   
   },[])

@@ -25,7 +25,7 @@ const Figma = () => {
     figmaTl.from('.sub-comp', {opacity:0, duration:0.2, ease:'power2.out'})
     figmaTl.from(titleSplit.words, {opacity:0,yPercent:100, stagger:0.09, ease:'power1.inOut'})
     figmaTl.from(paragraphSplit.words, {opacity:0, yPercent:150, stagger:0.06, ease:'power2.out'},'-=0.1')
-    figmaTl.from('.figma-img', {opacity:0, ease:'power2.inOut'}, '-=0.2')
+    // figmaTl.from('.figma-img', {opacity:0, ease:'power2.inOut'}, '-=0.2')
     // figmaTl.from('.figma Image', {opacity:0, ease:'power1.inOut', duration:0.8})
   })
 

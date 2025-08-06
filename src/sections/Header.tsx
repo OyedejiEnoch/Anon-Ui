@@ -22,6 +22,7 @@ const Header = () => {
     const tl =gsap.timeline({
       delay:0.5
     })
+    tl.to('.hero-section', {opacity:1})
     tl.from('.hour-glass', {opacity:0, duration:0.5, ease:'power2.out'})
     tl.from(titleSplit.words, {opacity:0,yPercent:100, stagger:0.06, ease:'power1.inOut'})
     tl.from(paragraphSplit.words, {opacity:0, yPercent:150, stagger:0.06, ease:'power2.out'})
@@ -52,7 +53,7 @@ const Header = () => {
   },[])
 
   return (
-    <section className='hero-section py-32 md:py-42'>
+    <section className='hero-section py-32 md:py-42 opacity-0'>
       <div className='max-w-7xl mx-auto'>
         
         <div className='flex justify-center items-center hour-glass'>
