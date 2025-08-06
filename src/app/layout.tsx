@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import {  Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-export const plusJakartaSans = Plus_Jakarta_Sans({
+const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-plus-jakarta-sans", // You can name this whatever you like
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"], // Add weights you plan to use
